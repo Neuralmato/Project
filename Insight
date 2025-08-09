@@ -1,1 +1,10 @@
-hello my name is tej pratap singh
+                                                 !!! INTRODUCTION !!!
+This project data can be taken from data.gov.in and in this dataset having continous three year crime data based on state and union teritorries.
+Clear a data set then start analysis using seaborn,matplotlib library related to python.
+                                                 !!! INSIGHT !!!
+Tamil nadu and Gujarat best work on his law and order because in 2020 they come top3 but in 2022 they out of top 7  most crime state.
+Uttar pradesh,Madhya Pradesh they poor position in 2020 they out of top 3 but 2022 and 2021 it stilunder top 4 on most crime state.
+Maharastra is worst position on law and order they still top 2 continuously three year.
+Where population is more crime is also more but in small state and union teritorries are very-very less crime happen lakshadweep,ladakh 
+But Delhi is capital of india here is also worst law and order year by year their crime increases and continuously 3 year they under top 6 most crime uts and second one jammu-kashmir.
+Andhra Pradesh,gujarat,Punjab,Tamil Nadu,West Bengal,Lakshadweep,Puducherry these state continuously descreases crime year by year.
