@@ -1,0 +1,54 @@
+Sentiment Distribution
+
+Positive reviews (4–5 stars): Majority share → products generally perform well.
+
+Neutral reviews (3 stars): Small proportion → possible improvement segment.
+
+Negative reviews (1–2 stars): ~11% → issues with quality/performance.
+
+
+
+Verified vs Non-verified Users
+
+Verified users → higher % of 4–5 star ratings (genuine buyers).
+
+Non-verified users → more 1–2 star ratings (fake/biased reviews).
+
+
+
+Unique Reviewers
+
+55,205 unique reviewers contributed reviews.
+
+
+
+Top Reviewers
+
+Reviewer with most reviews: A3V6Z4RCDGRC44 (815 reviews, avg rating ~4.29).
+
+
+Some users gave >700 reviews, strong influencers in dataset.
+
+
+One reviewer A119Q9NFGVOEJZ gave only 5-star ratings (possible bias).
+
+
+Products (ASIN-level)
+
+Unique products reviewed: Very large variety across dataset.
+
+Most reviewed product: B00178630A (1,381 reviews).
+
+Other top products also cross 700–900 reviews each.
+
+Worst-reviewed products: Many with only 1 review → low exposure or niche items.
+
+
+
+Overall Market Insight
+
+Products generally perform well (majority positive).
+
+~11% negative feedback = major concern, highlights issues in certain product batches or categories.
+
+Target: Neutral group → convert 3-star ratings into 4–5 stars by improving product quality & customer experience.
