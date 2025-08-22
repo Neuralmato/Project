@@ -12,7 +12,7 @@
 
 ## 🛠 Tools & Technologies
 
-- **Languages**: Python .
+- **Languages**: Python, Sql.
 - **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn, etc.
 - **Environment**: Jupyter Notebook / VS Code / Google Colab
 
