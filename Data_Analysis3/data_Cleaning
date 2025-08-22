@@ -1,0 +1,57 @@
+select * from uber_ride;
+
+-- where coluumn is null put value based on conditions 
+
+update uber_ride
+set  `Payment Method` ='unknown'
+where `Payment Method` is Null;
+
+update uber_ride
+set `Customer Rating` = 0
+where `Customer Rating` is Null;
+
+update uber_ride
+set `Driver Ratings` =0 
+where `Driver Ratings` is Null;
+ 
+update uber_ride
+set `Ride Distance` = 0
+where `Ride Distance` is Null;
+
+update uber_ride
+set `Booking Value` = 0 
+where `Booking Value` is NUll;
+
+update uber_ride
+set `Incomplete Rides` = 0
+where `Incomplete Rides` is Null;
+
+update uber_ride 
+set `Cancelled Rides by Driver` = 0
+where `Cancelled Rides by Driver` is Null;
+
+update uber_ride 
+set `Cancelled Rides by Customer` = 0
+where `Cancelled Rides by Customer` is null;
+
+update uber_ride
+set `Avg CTAT` = 0
+where `Avg CTAT` is Null;
+
+update uber_ride 
+set `Avg VTAT` = 0
+where `Avg VTAT` is Null;
+
+update uber_ride 
+set `Reason for cancelling by Customer` = 'Not Applicable'
+where `Reason for cancelling by Customer`is Null; 
+
+update uber_ride
+set `Driver Cancellation Reason` = 'Not Applicable'
+where `Driver cancellation Reason` is Null;
+
+Update uber_ride 
+set `Incomplete Rides Reason` = 'Not Applicable'
+where `Incomplete Rides Reason` is Null;
+
+select * from uber_ride;
