@@ -55,3 +55,44 @@ set `Incomplete Rides Reason` = 'Not Applicable'
 where `Incomplete Rides Reason` is Null;
 
 select * from uber_ride;
+
+-- Total ride
+select count(*) as total_rides from uber_ride;
+
+-- Total revenue generated 
+select sum(`Booking Value`) as total_revenue from uber_ride;
+
+-- Average fare per ride
+select avg(`Booking Value`) avg_fare from uber_ride;
+
+-- Ride per day 
+select date(Date) as ride_day,count(*) as ride_per_day
+from uber_ride
+group by ride_day
+order by ride_day;
+
+-- Revenue per day
+select Date as ride_day,sum(`Booking Value`) as revenue_per_day
+from uber_ride group by ride_day order by ride_day;
+
+-- Top five passenger by spending
+select `Customer ID` as customer_id,sum(`Booking Value`) as total_spent from uber_ride
+group by customer_id order by total_spent desc limit 5;
+
+-- Most popular pickup location
+select `Pickup Location`,count(*) as most_pickup from uber_ride
+group by `Pickup Location` order by most_pickup desc;
+
+-- Average ride distance
+select avg(`Ride Distance`) as avg_ride_distance from uber_ride;
+
+-- Average driver rating 
+select avg(`Driver Ratings`) as avg_driver_rating from uber_ride;
+
+-- Logest ride by distance
+select * ,`Ride Distance` as ride_distance from uber_ride
+order by ride_distance desc ;
+
+-- Highest fare collected 
+select `Booking ID`,`Booking Status`,`Vehicle Type`,`Booking Value` as fare from uber_ride
+order by fare desc limit 1;
