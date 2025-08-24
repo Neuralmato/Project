@@ -14,5 +14,5 @@
 
 - **Languages**: Python, Sql.
 - **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn, etc.
-- **Environment**: Jupyter Notebook / VS Code / Google Colab
-
+- **Environment**: Jupyter Notebook / VS Code / Google Colab.
+- **Tool** : Power BI,Tableau,Excel.
