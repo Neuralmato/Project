@@ -17,6 +17,8 @@ Success Rate:              65.96% (93K completed rides)
 Cancellation Rate:         25% (37.43K cancelled bookings)
 Customer Cancellations:    19.15% (27K rides)
 Driver Cancellations:      7.45% (10.5K rides)
+Total Revenue:             6103063 Rs
+
 
 ---------------------------------------------------------------------------------
 
